@@ -1,0 +1,29 @@
+{
+  "name": "bdd",
+  "version": "1.0.0",
+  "description": "cucumberjs demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarielab/bdd.git"
+  },
+  "keywords": [
+    "bdd",
+    "cucumberjs"
+  ],
+  "author": "ppsari <poppymighty@gmail.com> (https://github.com/ppsari/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarielab/bdd/issues"
+  },
+  "homepage": "https://github.com/sarielab/bdd#readme",
+  "dependencies": {
+    "chromedriver": "^2.29.0",
+    "cucumber": "^2.3.1",
+    "selenium-webdriver": "^3.4.0"
+  }
+}
